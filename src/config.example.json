@@ -1,0 +1,11 @@
+{
+    "CLOUDFLARE_API_TOKEN": "<YOUR_API_TOKEN>",
+    "ZONE_ID": "<YOUR_ZONE_ID>",
+    "CURRENT_IPV6_URL": "https://api6.ipify.org",
+    "CURRENT_IPV4_URL": "https://api.ipify.org",
+    "domains": [
+        { "DNS_NAME": "test1.example.com", "type": "AAAA" },
+        { "DNS_NAME": "test2.example.com", "type": "AAAA", "proxied": true },
+        { "DNS_NAME": "test3.example.com", "type": "A" }
+    ]
+}
