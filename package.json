@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "list": "node dist/index.js --list",
+    "config": "node dist/index.js --showConfig",
+    "help": "node dist/index.js --help"
   },
   "keywords": [],
   "author": "",
